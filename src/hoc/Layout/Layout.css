@@ -1,0 +1,6 @@
+.content{
+    margin-left: 60px;
+    width: calc(100% - 60px);
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+}

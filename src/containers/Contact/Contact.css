@@ -1,0 +1,85 @@
+.Contacts{
+    padding: 60px;
+}
+
+
+.ContactsTop {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ContactsTop img {
+    width: 40px;
+    margin-right: 15px;
+}
+.contactHeaderDiv{
+    margin-right:30px;
+}
+.contactHeaderDiv h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+.contactHeaderDiv p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    color: #9e9e9e;
+}
+.contactSortDiv span{
+    font-weight: bold;
+}
+
+.contactSortDiv select{
+    color: #9e9e9e;
+    border: none;
+}
+.contactSortDiv select:focus{
+   outline: none;
+}
+.AddContact {
+    width: 100%;
+    float: left;
+    padding: 15px 0px 15px 58px;
+}
+
+.AddContact input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+.AddContact input::-webkit-search-decoration,
+.AddContact input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+.AddContact input[type=search] {
+	background: #fafafa url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #fafafa;
+    padding: 9px 32px 9px 15px;
+    width: 250px;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-position: 95% center;
+}
+
+.AddContact input:focus {
+    outline: none;
+}
+
+
+.AddContact button  {
+    background: linear-gradient(to left, #8a2387, #e94057, #f27121);
+    width: 150px;
+    border-radius: 6px;
+    margin-left: 15px !important;
+    box-shadow: 0 0 3px #ccc;
+}

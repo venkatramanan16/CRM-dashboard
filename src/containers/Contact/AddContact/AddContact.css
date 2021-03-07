@@ -1,0 +1,25 @@
+
+.actionButtons {
+    float: right;
+    padding-right: 15px;
+}
+
+.saveBtn {
+    background: linear-gradient(to left, #8a2387, #e94057, #f27121);
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    margin-left: 10px;
+    padding: 7px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cancelBtn{
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    margin-left: 10px;
+    padding: 7px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.Logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.Logo img{
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,23 @@
+.NavigationItems {
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.NavigationItems li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.NavigationItems li img{
+    width: 20px;
+    height: 20px;
+}
+
+a.active {
+  border-left: 2px solid #fff;  
+}

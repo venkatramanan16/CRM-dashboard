@@ -1,0 +1,120 @@
+.TopBar{
+    width: 100%;
+    float: left;
+    height: 60px;
+    box-shadow: 0 0 3px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TopBar ul{
+    padding: 0px;
+    list-style: none;padding: 0px;
+    display: flex;
+    float: right;
+}
+
+.TopBarleft {
+    display: flex;
+    height: 59px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 60px;
+}
+.TopBarright{
+    display: flex;
+    align-items: flex-end;
+    float: right;
+    justify-content: flex-end;
+}
+.TopBarright ul li {
+    padding-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.TopBarright ul li img {
+    width: 18px;
+}
+
+.NameSelect {
+    width: auto;
+    border: none;
+}
+.NameSelect:focus{
+    outline: none;
+}
+.alert{
+    background: red;
+    border-radius: 50%;
+    width: 6px;
+    position: absolute;
+    height: 6px;
+    top: 3px;
+    color: red;
+    left: 10px;
+    overflow: hidden;
+}
+
+.TopBarleft input {
+	outline: none;
+}
+.TopBarleft input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+.TopBarleft input::-webkit-search-decoration,
+.TopBarleft input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+.TopBarleft input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+    margin-left:60px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+.TopBarleft input:-moz-placeholder {
+	color: #999;
+}
+.TopBarleft input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+.TopBarleft  input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+.TopBarleft input[type=search]:hover {
+	background-color: #fff;
+}
+.TopBarleft input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+.TopBarleft input:-moz-placeholder {
+	color: transparent;
+}
+.TopBarleft input::-webkit-input-placeholder {
+	color: transparent;
+}
